@@ -1,0 +1,65 @@
+/* WeatherApp.css */
+.weather-app {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-app h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .weather-app form {
+    display: flex;
+  }
+  
+  .weather-app input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .weather-app button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .weather-info {
+    margin-top: 20px;
+  }
+  
+  .weather-info h2 {
+    margin-top: 0;
+  }
+  
+  .weather-info p {
+    margin: 5px 0;
+  }
+  
+  .loading {
+    text-align: center;
+  }
+
+  /* WeatherApp.css */
+/* ... (Existing CSS styles) */
+
+.error-message {
+    color: #ff0000;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+  }
